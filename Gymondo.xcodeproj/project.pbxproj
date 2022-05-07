@@ -3,18 +3,54 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ED9361925A2FD7114B12217 /* Pods_Gymondo_GymondoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9453A723CA9E9E3890AF2D42 /* Pods_Gymondo_GymondoUITests.framework */; };
+		E39200E3ED9B580927AD3D0B /* Pods_Gymondo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E7399A551E56FE262CFD61 /* Pods_Gymondo.framework */; };
+		EDC40F377944A31E1432CB7B /* Pods_GymondoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB00FEB1762FD48A38360E7C /* Pods_GymondoTests.framework */; };
+		FB3A7DB2281E9F7D008EC73D /* ExerciseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3A7DB0281E9F7D008EC73D /* ExerciseDetailsViewController.swift */; };
+		FB3A7DB3281E9F7D008EC73D /* ExerciseDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB3A7DB1281E9F7D008EC73D /* ExerciseDetailsViewController.xib */; };
+		FB3A7DB5281EFE27008EC73D /* ExerciseDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3A7DB4281EFE27008EC73D /* ExerciseDetailsViewModel.swift */; };
+		FB3A7DB7281F0611008EC73D /* ExerciseDetailsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3A7DB6281F0611008EC73D /* ExerciseDetailsCellViewModel.swift */; };
 		FB84D0F8281BCD2800458791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D0F7281BCD2800458791 /* AppDelegate.swift */; };
 		FB84D0FA281BCD2800458791 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D0F9281BCD2800458791 /* SceneDelegate.swift */; };
-		FB84D0FC281BCD2800458791 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D0FB281BCD2800458791 /* ViewController.swift */; };
+		FB84D0FC281BCD2800458791 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D0FB281BCD2800458791 /* ExerciseViewController.swift */; };
 		FB84D0FF281BCD2800458791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB84D0FD281BCD2800458791 /* Main.storyboard */; };
 		FB84D101281BCD2A00458791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB84D100281BCD2A00458791 /* Assets.xcassets */; };
 		FB84D104281BCD2A00458791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB84D102281BCD2A00458791 /* LaunchScreen.storyboard */; };
 		FB84D10F281BCD2A00458791 /* GymondoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D10E281BCD2A00458791 /* GymondoTests.swift */; };
 		FB84D11A281BCD2A00458791 /* GymondoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D119281BCD2A00458791 /* GymondoUITests.swift */; };
+		FB84D12E281C0A8200458791 /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D12D281C0A8200458791 /* ExerciseModel.swift */; };
+		FB84D130281C114E00458791 /* ExerciseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D12F281C114E00458791 /* ExerciseInfo.swift */; };
+		FB84D179281CF3E600458791 /* ExercisesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D178281CF3E600458791 /* ExercisesListViewModel.swift */; };
+		FB84D17B281CF42700458791 /* ExerciseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D17A281CF42700458791 /* ExerciseService.swift */; };
+		FB84D17E281CF4BF00458791 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D17D281CF4BF00458791 /* AppConstant.swift */; };
+		FB84D17F281CF4BF00458791 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D17D281CF4BF00458791 /* AppConstant.swift */; };
+		FB84D180281CF4BF00458791 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D17D281CF4BF00458791 /* AppConstant.swift */; };
+		FB84D182281D0FBD00458791 /* ExerciseListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D181281D0FBD00458791 /* ExerciseListCellViewModel.swift */; };
+		FB84D183281D0FBD00458791 /* ExerciseListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D181281D0FBD00458791 /* ExerciseListCellViewModel.swift */; };
+		FB84D184281D0FBD00458791 /* ExerciseListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D181281D0FBD00458791 /* ExerciseListCellViewModel.swift */; };
+		FB84D187281D1EFD00458791 /* ExerciseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB84D185281D1EFC00458791 /* ExerciseTableViewCell.xib */; };
+		FB84D188281D1EFD00458791 /* ExerciseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB84D185281D1EFC00458791 /* ExerciseTableViewCell.xib */; };
+		FB84D189281D1EFD00458791 /* ExerciseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB84D185281D1EFC00458791 /* ExerciseTableViewCell.xib */; };
+		FB84D18A281D1EFD00458791 /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D186281D1EFD00458791 /* ExerciseTableViewCell.swift */; };
+		FB84D18B281D1EFD00458791 /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D186281D1EFD00458791 /* ExerciseTableViewCell.swift */; };
+		FB84D18C281D1EFD00458791 /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D186281D1EFD00458791 /* ExerciseTableViewCell.swift */; };
+		FB84D190281D1FB000458791 /* ExerciseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D18D281D1FB000458791 /* ExerciseCollectionViewCell.swift */; };
+		FB84D191281D1FB000458791 /* ExerciseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D18D281D1FB000458791 /* ExerciseCollectionViewCell.swift */; };
+		FB84D192281D1FB000458791 /* ExerciseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D18D281D1FB000458791 /* ExerciseCollectionViewCell.swift */; };
+		FB84D193281D1FB000458791 /* ExerciseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB84D18E281D1FB000458791 /* ExerciseCollectionViewCell.xib */; };
+		FB84D194281D1FB000458791 /* ExerciseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB84D18E281D1FB000458791 /* ExerciseCollectionViewCell.xib */; };
+		FB84D195281D1FB000458791 /* ExerciseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB84D18E281D1FB000458791 /* ExerciseCollectionViewCell.xib */; };
+		FB84D196281D1FB000458791 /* ExerciseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D18F281D1FB000458791 /* ExerciseCollectionView.swift */; };
+		FB84D197281D1FB000458791 /* ExerciseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D18F281D1FB000458791 /* ExerciseCollectionView.swift */; };
+		FB84D198281D1FB000458791 /* ExerciseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D18F281D1FB000458791 /* ExerciseCollectionView.swift */; };
+		FB84D19A281D23D900458791 /* ImageCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D199281D23D900458791 /* ImageCellViewModel.swift */; };
+		FB84D19B281D23D900458791 /* ImageCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D199281D23D900458791 /* ImageCellViewModel.swift */; };
+		FB84D19C281D23D900458791 /* ImageCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D199281D23D900458791 /* ImageCellViewModel.swift */; };
+		FB84D19F281D3B9E00458791 /* UIViewController+ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D19E281D3B9E00458791 /* UIViewController+ProgressHUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +71,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F41B4A9A8E2C341E4B191F7 /* Pods-Gymondo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gymondo.release.xcconfig"; path = "Target Support Files/Pods-Gymondo/Pods-Gymondo.release.xcconfig"; sourceTree = "<group>"; };
+		38E7399A551E56FE262CFD61 /* Pods_Gymondo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gymondo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BABDCF9BF1C7DFC93F208EC /* Pods-Gymondo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gymondo.debug.xcconfig"; path = "Target Support Files/Pods-Gymondo/Pods-Gymondo.debug.xcconfig"; sourceTree = "<group>"; };
+		9453A723CA9E9E3890AF2D42 /* Pods_Gymondo_GymondoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gymondo_GymondoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AF9DF2AA9B5F093F07A5F8 /* Pods-Gymondo-GymondoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gymondo-GymondoUITests.release.xcconfig"; path = "Target Support Files/Pods-Gymondo-GymondoUITests/Pods-Gymondo-GymondoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AB00FEB1762FD48A38360E7C /* Pods_GymondoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymondoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F820D8E7C0ED52FB122195 /* Pods-GymondoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymondoTests.release.xcconfig"; path = "Target Support Files/Pods-GymondoTests/Pods-GymondoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8714EC485664723DEE089AA /* Pods-Gymondo-GymondoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gymondo-GymondoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Gymondo-GymondoUITests/Pods-Gymondo-GymondoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB3A7DB0281E9F7D008EC73D /* ExerciseDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsViewController.swift; sourceTree = "<group>"; };
+		FB3A7DB1281E9F7D008EC73D /* ExerciseDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseDetailsViewController.xib; sourceTree = "<group>"; };
+		FB3A7DB4281EFE27008EC73D /* ExerciseDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsViewModel.swift; sourceTree = "<group>"; };
+		FB3A7DB6281F0611008EC73D /* ExerciseDetailsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsCellViewModel.swift; sourceTree = "<group>"; };
 		FB84D0F4281BCD2800458791 /* Gymondo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gymondo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB84D0F7281BCD2800458791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB84D0F9281BCD2800458791 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB84D0FB281BCD2800458791 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB84D0FB281BCD2800458791 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
 		FB84D0FE281BCD2800458791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB84D100281BCD2A00458791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB84D103281BCD2A00458791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +97,20 @@
 		FB84D115281BCD2A00458791 /* GymondoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymondoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB84D119281BCD2A00458791 /* GymondoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymondoUITests.swift; sourceTree = "<group>"; };
 		FB84D11B281BCD2A00458791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB84D12D281C0A8200458791 /* ExerciseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseModel.swift; sourceTree = "<group>"; };
+		FB84D12F281C114E00458791 /* ExerciseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseInfo.swift; sourceTree = "<group>"; };
+		FB84D178281CF3E600458791 /* ExercisesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesListViewModel.swift; sourceTree = "<group>"; };
+		FB84D17A281CF42700458791 /* ExerciseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseService.swift; sourceTree = "<group>"; };
+		FB84D17D281CF4BF00458791 /* AppConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		FB84D181281D0FBD00458791 /* ExerciseListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListCellViewModel.swift; sourceTree = "<group>"; };
+		FB84D185281D1EFC00458791 /* ExerciseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExerciseTableViewCell.xib; sourceTree = "<group>"; };
+		FB84D186281D1EFD00458791 /* ExerciseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewCell.swift; sourceTree = "<group>"; };
+		FB84D18D281D1FB000458791 /* ExerciseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCollectionViewCell.swift; sourceTree = "<group>"; };
+		FB84D18E281D1FB000458791 /* ExerciseCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExerciseCollectionViewCell.xib; sourceTree = "<group>"; };
+		FB84D18F281D1FB000458791 /* ExerciseCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCollectionView.swift; sourceTree = "<group>"; };
+		FB84D199281D23D900458791 /* ImageCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCellViewModel.swift; sourceTree = "<group>"; };
+		FB84D19E281D3B9E00458791 /* UIViewController+ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ProgressHUD.swift"; sourceTree = "<group>"; };
+		FCBC25023F5EA527534A2B87 /* Pods-GymondoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymondoTests.debug.xcconfig"; path = "Target Support Files/Pods-GymondoTests/Pods-GymondoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E39200E3ED9B580927AD3D0B /* Pods_Gymondo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC40F377944A31E1432CB7B /* Pods_GymondoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +134,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ED9361925A2FD7114B12217 /* Pods_Gymondo_GymondoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4325894F51FC9F946051371B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38E7399A551E56FE262CFD61 /* Pods_Gymondo.framework */,
+				9453A723CA9E9E3890AF2D42 /* Pods_Gymondo_GymondoUITests.framework */,
+				AB00FEB1762FD48A38360E7C /* Pods_GymondoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		892EDF37F8661F582DCD1D9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BABDCF9BF1C7DFC93F208EC /* Pods-Gymondo.debug.xcconfig */,
+				0F41B4A9A8E2C341E4B191F7 /* Pods-Gymondo.release.xcconfig */,
+				D8714EC485664723DEE089AA /* Pods-Gymondo-GymondoUITests.debug.xcconfig */,
+				A4AF9DF2AA9B5F093F07A5F8 /* Pods-Gymondo-GymondoUITests.release.xcconfig */,
+				FCBC25023F5EA527534A2B87 /* Pods-GymondoTests.debug.xcconfig */,
+				C0F820D8E7C0ED52FB122195 /* Pods-GymondoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FB84D0EB281BCD2800458791 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +171,8 @@
 				FB84D10D281BCD2A00458791 /* GymondoTests */,
 				FB84D118281BCD2A00458791 /* GymondoUITests */,
 				FB84D0F5281BCD2800458791 /* Products */,
+				892EDF37F8661F582DCD1D9D /* Pods */,
+				4325894F51FC9F946051371B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +191,10 @@
 			children = (
 				FB84D0F7281BCD2800458791 /* AppDelegate.swift */,
 				FB84D0F9281BCD2800458791 /* SceneDelegate.swift */,
-				FB84D0FB281BCD2800458791 /* ViewController.swift */,
 				FB84D0FD281BCD2800458791 /* Main.storyboard */,
+				FB84D16F281CF07B00458791 /* Excercise */,
+				FB84D17C281CF4AA00458791 /* Utilites */,
+				FB84D19D281D3B8A00458791 /* Extensions */,
 				FB84D100281BCD2A00458791 /* Assets.xcassets */,
 				FB84D102281BCD2A00458791 /* LaunchScreen.storyboard */,
 				FB84D105281BCD2A00458791 /* Info.plist */,
@@ -128,6 +220,77 @@
 			path = GymondoUITests;
 			sourceTree = "<group>";
 		};
+		FB84D16F281CF07B00458791 /* Excercise */ = {
+			isa = PBXGroup;
+			children = (
+				FB84D177281CF3B400458791 /* Service */,
+				FB84D176281CF0E400458791 /* Model */,
+				FB84D175281CF0DA00458791 /* ViewModel */,
+				FB84D174281CF0D200458791 /* View */,
+			);
+			path = Excercise;
+			sourceTree = "<group>";
+		};
+		FB84D174281CF0D200458791 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB84D0FB281BCD2800458791 /* ExerciseViewController.swift */,
+				FB84D18F281D1FB000458791 /* ExerciseCollectionView.swift */,
+				FB84D18D281D1FB000458791 /* ExerciseCollectionViewCell.swift */,
+				FB84D18E281D1FB000458791 /* ExerciseCollectionViewCell.xib */,
+				FB84D186281D1EFD00458791 /* ExerciseTableViewCell.swift */,
+				FB84D185281D1EFC00458791 /* ExerciseTableViewCell.xib */,
+				FB3A7DB0281E9F7D008EC73D /* ExerciseDetailsViewController.swift */,
+				FB3A7DB1281E9F7D008EC73D /* ExerciseDetailsViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB84D175281CF0DA00458791 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB84D181281D0FBD00458791 /* ExerciseListCellViewModel.swift */,
+				FB84D178281CF3E600458791 /* ExercisesListViewModel.swift */,
+				FB84D199281D23D900458791 /* ImageCellViewModel.swift */,
+				FB3A7DB4281EFE27008EC73D /* ExerciseDetailsViewModel.swift */,
+				FB3A7DB6281F0611008EC73D /* ExerciseDetailsCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FB84D176281CF0E400458791 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB84D12D281C0A8200458791 /* ExerciseModel.swift */,
+				FB84D12F281C114E00458791 /* ExerciseInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB84D177281CF3B400458791 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FB84D17A281CF42700458791 /* ExerciseService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FB84D17C281CF4AA00458791 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				FB84D17D281CF4BF00458791 /* AppConstant.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		FB84D19D281D3B8A00458791 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FB84D19E281D3B9E00458791 /* UIViewController+ProgressHUD.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +298,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB84D11E281BCD2A00458791 /* Build configuration list for PBXNativeTarget "Gymondo" */;
 			buildPhases = (
+				2743E870B0E9D1F9AA14B60F /* [CP] Check Pods Manifest.lock */,
 				FB84D0F0281BCD2800458791 /* Sources */,
 				FB84D0F1281BCD2800458791 /* Frameworks */,
 				FB84D0F2281BCD2800458791 /* Resources */,
+				E452077899F7892ED10E95BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +317,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB84D121281BCD2A00458791 /* Build configuration list for PBXNativeTarget "GymondoTests" */;
 			buildPhases = (
+				8AB379FBE411A85AF52DAA49 /* [CP] Check Pods Manifest.lock */,
 				FB84D106281BCD2A00458791 /* Sources */,
 				FB84D107281BCD2A00458791 /* Frameworks */,
 				FB84D108281BCD2A00458791 /* Resources */,
@@ -170,9 +336,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB84D124281BCD2A00458791 /* Build configuration list for PBXNativeTarget "GymondoUITests" */;
 			buildPhases = (
+				C73A9A2774AA0F5EFD6DE8A7 /* [CP] Check Pods Manifest.lock */,
 				FB84D111281BCD2A00458791 /* Sources */,
 				FB84D112281BCD2A00458791 /* Frameworks */,
 				FB84D113281BCD2A00458791 /* Resources */,
+				79A890AE1FB76396C2AFF588 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,7 +400,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB84D104281BCD2A00458791 /* LaunchScreen.storyboard in Resources */,
+				FB84D187281D1EFD00458791 /* ExerciseTableViewCell.xib in Resources */,
 				FB84D101281BCD2A00458791 /* Assets.xcassets in Resources */,
+				FB3A7DB3281E9F7D008EC73D /* ExerciseDetailsViewController.xib in Resources */,
+				FB84D193281D1FB000458791 /* ExerciseCollectionViewCell.xib in Resources */,
 				FB84D0FF281BCD2800458791 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +412,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB84D194281D1FB000458791 /* ExerciseCollectionViewCell.xib in Resources */,
+				FB84D188281D1EFD00458791 /* ExerciseTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,19 +421,138 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB84D195281D1FB000458791 /* ExerciseCollectionViewCell.xib in Resources */,
+				FB84D189281D1EFD00458791 /* ExerciseTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2743E870B0E9D1F9AA14B60F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gymondo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79A890AE1FB76396C2AFF588 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gymondo-GymondoUITests/Pods-Gymondo-GymondoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gymondo-GymondoUITests/Pods-Gymondo-GymondoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gymondo-GymondoUITests/Pods-Gymondo-GymondoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB379FBE411A85AF52DAA49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymondoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C73A9A2774AA0F5EFD6DE8A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gymondo-GymondoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E452077899F7892ED10E95BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gymondo/Pods-Gymondo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gymondo/Pods-Gymondo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gymondo/Pods-Gymondo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FB84D0F0281BCD2800458791 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB84D0FC281BCD2800458791 /* ViewController.swift in Sources */,
+				FB84D19F281D3B9E00458791 /* UIViewController+ProgressHUD.swift in Sources */,
+				FB84D190281D1FB000458791 /* ExerciseCollectionViewCell.swift in Sources */,
+				FB84D196281D1FB000458791 /* ExerciseCollectionView.swift in Sources */,
+				FB3A7DB2281E9F7D008EC73D /* ExerciseDetailsViewController.swift in Sources */,
+				FB84D18A281D1EFD00458791 /* ExerciseTableViewCell.swift in Sources */,
+				FB84D17E281CF4BF00458791 /* AppConstant.swift in Sources */,
+				FB84D0FC281BCD2800458791 /* ExerciseViewController.swift in Sources */,
+				FB3A7DB5281EFE27008EC73D /* ExerciseDetailsViewModel.swift in Sources */,
+				FB84D17B281CF42700458791 /* ExerciseService.swift in Sources */,
+				FB84D179281CF3E600458791 /* ExercisesListViewModel.swift in Sources */,
+				FB84D182281D0FBD00458791 /* ExerciseListCellViewModel.swift in Sources */,
 				FB84D0F8281BCD2800458791 /* AppDelegate.swift in Sources */,
 				FB84D0FA281BCD2800458791 /* SceneDelegate.swift in Sources */,
+				FB84D19A281D23D900458791 /* ImageCellViewModel.swift in Sources */,
+				FB3A7DB7281F0611008EC73D /* ExerciseDetailsCellViewModel.swift in Sources */,
+				FB84D12E281C0A8200458791 /* ExerciseModel.swift in Sources */,
+				FB84D130281C114E00458791 /* ExerciseInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +561,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB84D10F281BCD2A00458791 /* GymondoTests.swift in Sources */,
+				FB84D17F281CF4BF00458791 /* AppConstant.swift in Sources */,
+				FB84D191281D1FB000458791 /* ExerciseCollectionViewCell.swift in Sources */,
+				FB84D19B281D23D900458791 /* ImageCellViewModel.swift in Sources */,
+				FB84D183281D0FBD00458791 /* ExerciseListCellViewModel.swift in Sources */,
+				FB84D197281D1FB000458791 /* ExerciseCollectionView.swift in Sources */,
+				FB84D18B281D1EFD00458791 /* ExerciseTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +575,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB84D11A281BCD2A00458791 /* GymondoUITests.swift in Sources */,
+				FB84D180281CF4BF00458791 /* AppConstant.swift in Sources */,
+				FB84D192281D1FB000458791 /* ExerciseCollectionViewCell.swift in Sources */,
+				FB84D19C281D23D900458791 /* ImageCellViewModel.swift in Sources */,
+				FB84D184281D0FBD00458791 /* ExerciseListCellViewModel.swift in Sources */,
+				FB84D198281D1FB000458791 /* ExerciseCollectionView.swift in Sources */,
+				FB84D18C281D1EFD00458791 /* ExerciseTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +737,7 @@
 		};
 		FB84D11F281BCD2A00458791 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BABDCF9BF1C7DFC93F208EC /* Pods-Gymondo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +756,7 @@
 		};
 		FB84D120281BCD2A00458791 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F41B4A9A8E2C341E4B191F7 /* Pods-Gymondo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +775,7 @@
 		};
 		FB84D122281BCD2A00458791 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCBC25023F5EA527534A2B87 /* Pods-GymondoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +797,7 @@
 		};
 		FB84D123281BCD2A00458791 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F820D8E7C0ED52FB122195 /* Pods-GymondoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +819,7 @@
 		};
 		FB84D125281BCD2A00458791 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8714EC485664723DEE089AA /* Pods-Gymondo-GymondoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +839,7 @@
 		};
 		FB84D126281BCD2A00458791 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AF9DF2AA9B5F093F07A5F8 /* Pods-Gymondo-GymondoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
