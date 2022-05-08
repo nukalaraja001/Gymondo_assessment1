@@ -11,7 +11,6 @@ class ExerciseViewController: UIViewController {
     
     static let kExerciseTableViewCell = "ExerciseTableViewCell"
     
-    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var exerciseTableView: UITableView!
     private var viewModel = ExercisesListViewModel()
     private let refreshControl = UIRefreshControl()
@@ -30,8 +29,6 @@ class ExerciseViewController: UIViewController {
     }
     
     private func setUpStoreListTableView() {
-        self.exerciseTableView.backgroundView = activityIndicator
-        self.activityIndicator.startAnimating()
         self.exerciseTableView.separatorStyle = .none
         self.exerciseTableView.register(UINib(nibName: ExerciseViewController.kExerciseTableViewCell, bundle: nil), forCellReuseIdentifier: ExerciseViewController.kExerciseTableViewCell)
     }
@@ -52,7 +49,6 @@ class ExerciseViewController: UIViewController {
     private func updateUI() {
         viewModel.reloadTable = {
             DispatchQueue.main.async {
-                self.activityIndicator.stopAnimating()
                 self.exerciseTableView.delegate = self
                 self.exerciseTableView.dataSource = self
                 self.exerciseTableView.reloadData()
@@ -61,7 +57,6 @@ class ExerciseViewController: UIViewController {
         }
         
         viewModel.fetchExercisesError = { error in
-            self.activityIndicator.stopAnimating()
             self.viewModel.resetData()
             if let errorHandler = error {
                 // Show alert
