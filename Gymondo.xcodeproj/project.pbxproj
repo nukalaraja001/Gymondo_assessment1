@@ -13,7 +13,6 @@
 		FB3A7DB2281E9F7D008EC73D /* ExerciseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3A7DB0281E9F7D008EC73D /* ExerciseDetailsViewController.swift */; };
 		FB3A7DB3281E9F7D008EC73D /* ExerciseDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB3A7DB1281E9F7D008EC73D /* ExerciseDetailsViewController.xib */; };
 		FB3A7DB5281EFE27008EC73D /* ExerciseDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3A7DB4281EFE27008EC73D /* ExerciseDetailsViewModel.swift */; };
-		FB3A7DB7281F0611008EC73D /* ExerciseDetailsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3A7DB6281F0611008EC73D /* ExerciseDetailsCellViewModel.swift */; };
 		FB84D0F8281BCD2800458791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D0F7281BCD2800458791 /* AppDelegate.swift */; };
 		FB84D0FA281BCD2800458791 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D0F9281BCD2800458791 /* SceneDelegate.swift */; };
 		FB84D0FC281BCD2800458791 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D0FB281BCD2800458791 /* ExerciseViewController.swift */; };
@@ -31,7 +30,6 @@
 		FB84D180281CF4BF00458791 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D17D281CF4BF00458791 /* AppConstant.swift */; };
 		FB84D182281D0FBD00458791 /* ExerciseListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D181281D0FBD00458791 /* ExerciseListCellViewModel.swift */; };
 		FB84D183281D0FBD00458791 /* ExerciseListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D181281D0FBD00458791 /* ExerciseListCellViewModel.swift */; };
-		FB84D184281D0FBD00458791 /* ExerciseListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D181281D0FBD00458791 /* ExerciseListCellViewModel.swift */; };
 		FB84D187281D1EFD00458791 /* ExerciseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB84D185281D1EFC00458791 /* ExerciseTableViewCell.xib */; };
 		FB84D188281D1EFD00458791 /* ExerciseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB84D185281D1EFC00458791 /* ExerciseTableViewCell.xib */; };
 		FB84D189281D1EFD00458791 /* ExerciseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB84D185281D1EFC00458791 /* ExerciseTableViewCell.xib */; };
@@ -49,8 +47,22 @@
 		FB84D198281D1FB000458791 /* ExerciseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D18F281D1FB000458791 /* ExerciseCollectionView.swift */; };
 		FB84D19A281D23D900458791 /* ImageCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D199281D23D900458791 /* ImageCellViewModel.swift */; };
 		FB84D19B281D23D900458791 /* ImageCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D199281D23D900458791 /* ImageCellViewModel.swift */; };
-		FB84D19C281D23D900458791 /* ImageCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D199281D23D900458791 /* ImageCellViewModel.swift */; };
 		FB84D19F281D3B9E00458791 /* UIViewController+ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D19E281D3B9E00458791 /* UIViewController+ProgressHUD.swift */; };
+		FBB0345E2826BE36001A3E06 /* ExercisesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D178281CF3E600458791 /* ExercisesListViewModel.swift */; };
+		FBB034602826D7FF001A3E06 /* ExerciseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D17A281CF42700458791 /* ExerciseService.swift */; };
+		FBB034612826D814001A3E06 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D0FB281BCD2800458791 /* ExerciseViewController.swift */; };
+		FBB034632826D81B001A3E06 /* ExerciseDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3A7DB4281EFE27008EC73D /* ExerciseDetailsViewModel.swift */; };
+		FBB034642826D82F001A3E06 /* ExerciseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3A7DB0281E9F7D008EC73D /* ExerciseDetailsViewController.swift */; };
+		FBB034652826D838001A3E06 /* ExerciseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D12F281C114E00458791 /* ExerciseInfo.swift */; };
+		FBB034702826DDE3001A3E06 /* ExerciseListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB0346E2826DDE3001A3E06 /* ExerciseListViewModelTests.swift */; };
+		FBB034732826DE39001A3E06 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB034722826DE39001A3E06 /* XCTest.framework */; };
+		FBB034742826DE4F001A3E06 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB034722826DE39001A3E06 /* XCTest.framework */; };
+		FBB034752826DE61001A3E06 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB034722826DE39001A3E06 /* XCTest.framework */; };
+		FBB034762826E104001A3E06 /* ExerciseListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D181281D0FBD00458791 /* ExerciseListCellViewModel.swift */; };
+		FBB034772826E400001A3E06 /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D12D281C0A8200458791 /* ExerciseModel.swift */; };
+		FBB034782826E424001A3E06 /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D12D281C0A8200458791 /* ExerciseModel.swift */; };
+		FBB0347C282817DF001A3E06 /* ExerciseDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB0347B282817DF001A3E06 /* ExerciseDetailsViewModelTests.swift */; };
+		FBF503432826E1A00032BB31 /* ImageCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84D199281D23D900458791 /* ImageCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,7 +94,6 @@
 		FB3A7DB0281E9F7D008EC73D /* ExerciseDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsViewController.swift; sourceTree = "<group>"; };
 		FB3A7DB1281E9F7D008EC73D /* ExerciseDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseDetailsViewController.xib; sourceTree = "<group>"; };
 		FB3A7DB4281EFE27008EC73D /* ExerciseDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsViewModel.swift; sourceTree = "<group>"; };
-		FB3A7DB6281F0611008EC73D /* ExerciseDetailsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsCellViewModel.swift; sourceTree = "<group>"; };
 		FB84D0F4281BCD2800458791 /* Gymondo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gymondo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB84D0F7281BCD2800458791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB84D0F9281BCD2800458791 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +121,9 @@
 		FB84D18F281D1FB000458791 /* ExerciseCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCollectionView.swift; sourceTree = "<group>"; };
 		FB84D199281D23D900458791 /* ImageCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCellViewModel.swift; sourceTree = "<group>"; };
 		FB84D19E281D3B9E00458791 /* UIViewController+ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ProgressHUD.swift"; sourceTree = "<group>"; };
+		FBB0346E2826DDE3001A3E06 /* ExerciseListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListViewModelTests.swift; sourceTree = "<group>"; };
+		FBB034722826DE39001A3E06 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FBB0347B282817DF001A3E06 /* ExerciseDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsViewModelTests.swift; sourceTree = "<group>"; };
 		FCBC25023F5EA527534A2B87 /* Pods-GymondoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymondoTests.debug.xcconfig"; path = "Target Support Files/Pods-GymondoTests/Pods-GymondoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB034742826DE4F001A3E06 /* XCTest.framework in Frameworks */,
 				E39200E3ED9B580927AD3D0B /* Pods_Gymondo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB034732826DE39001A3E06 /* XCTest.framework in Frameworks */,
 				EDC40F377944A31E1432CB7B /* Pods_GymondoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB034752826DE61001A3E06 /* XCTest.framework in Frameworks */,
 				0ED9361925A2FD7114B12217 /* Pods_Gymondo_GymondoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +161,7 @@
 		4325894F51FC9F946051371B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FBB034722826DE39001A3E06 /* XCTest.framework */,
 				38E7399A551E56FE262CFD61 /* Pods_Gymondo.framework */,
 				9453A723CA9E9E3890AF2D42 /* Pods_Gymondo_GymondoUITests.framework */,
 				AB00FEB1762FD48A38360E7C /* Pods_GymondoTests.framework */,
@@ -191,7 +209,6 @@
 			children = (
 				FB84D0F7281BCD2800458791 /* AppDelegate.swift */,
 				FB84D0F9281BCD2800458791 /* SceneDelegate.swift */,
-				FB84D0FD281BCD2800458791 /* Main.storyboard */,
 				FB84D16F281CF07B00458791 /* Excercise */,
 				FB84D17C281CF4AA00458791 /* Utilites */,
 				FB84D19D281D3B8A00458791 /* Extensions */,
@@ -205,6 +222,8 @@
 		FB84D10D281BCD2A00458791 /* GymondoTests */ = {
 			isa = PBXGroup;
 			children = (
+				FBB0346E2826DDE3001A3E06 /* ExerciseListViewModelTests.swift */,
+				FBB0347B282817DF001A3E06 /* ExerciseDetailsViewModelTests.swift */,
 				FB84D10E281BCD2A00458791 /* GymondoTests.swift */,
 				FB84D110281BCD2A00458791 /* Info.plist */,
 			);
@@ -234,6 +253,7 @@
 		FB84D174281CF0D200458791 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FB84D0FD281BCD2800458791 /* Main.storyboard */,
 				FB84D0FB281BCD2800458791 /* ExerciseViewController.swift */,
 				FB84D18F281D1FB000458791 /* ExerciseCollectionView.swift */,
 				FB84D18D281D1FB000458791 /* ExerciseCollectionViewCell.swift */,
@@ -253,7 +273,6 @@
 				FB84D178281CF3E600458791 /* ExercisesListViewModel.swift */,
 				FB84D199281D23D900458791 /* ImageCellViewModel.swift */,
 				FB3A7DB4281EFE27008EC73D /* ExerciseDetailsViewModel.swift */,
-				FB3A7DB6281F0611008EC73D /* ExerciseDetailsCellViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -550,7 +569,6 @@
 				FB84D0F8281BCD2800458791 /* AppDelegate.swift in Sources */,
 				FB84D0FA281BCD2800458791 /* SceneDelegate.swift in Sources */,
 				FB84D19A281D23D900458791 /* ImageCellViewModel.swift in Sources */,
-				FB3A7DB7281F0611008EC73D /* ExerciseDetailsCellViewModel.swift in Sources */,
 				FB84D12E281C0A8200458791 /* ExerciseModel.swift in Sources */,
 				FB84D130281C114E00458791 /* ExerciseInfo.swift in Sources */,
 			);
@@ -561,12 +579,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB84D10F281BCD2A00458791 /* GymondoTests.swift in Sources */,
+				FBB034652826D838001A3E06 /* ExerciseInfo.swift in Sources */,
+				FBB034632826D81B001A3E06 /* ExerciseDetailsViewModel.swift in Sources */,
+				FBB0347C282817DF001A3E06 /* ExerciseDetailsViewModelTests.swift in Sources */,
 				FB84D17F281CF4BF00458791 /* AppConstant.swift in Sources */,
+				FBB034642826D82F001A3E06 /* ExerciseDetailsViewController.swift in Sources */,
 				FB84D191281D1FB000458791 /* ExerciseCollectionViewCell.swift in Sources */,
+				FBB0345E2826BE36001A3E06 /* ExercisesListViewModel.swift in Sources */,
+				FBB034772826E400001A3E06 /* ExerciseModel.swift in Sources */,
 				FB84D19B281D23D900458791 /* ImageCellViewModel.swift in Sources */,
+				FBB034602826D7FF001A3E06 /* ExerciseService.swift in Sources */,
 				FB84D183281D0FBD00458791 /* ExerciseListCellViewModel.swift in Sources */,
 				FB84D197281D1FB000458791 /* ExerciseCollectionView.swift in Sources */,
+				FBB034702826DDE3001A3E06 /* ExerciseListViewModelTests.swift in Sources */,
 				FB84D18B281D1EFD00458791 /* ExerciseTableViewCell.swift in Sources */,
+				FBB034612826D814001A3E06 /* ExerciseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,10 +604,11 @@
 				FB84D11A281BCD2A00458791 /* GymondoUITests.swift in Sources */,
 				FB84D180281CF4BF00458791 /* AppConstant.swift in Sources */,
 				FB84D192281D1FB000458791 /* ExerciseCollectionViewCell.swift in Sources */,
-				FB84D19C281D23D900458791 /* ImageCellViewModel.swift in Sources */,
-				FB84D184281D0FBD00458791 /* ExerciseListCellViewModel.swift in Sources */,
+				FBF503432826E1A00032BB31 /* ImageCellViewModel.swift in Sources */,
 				FB84D198281D1FB000458791 /* ExerciseCollectionView.swift in Sources */,
 				FB84D18C281D1EFD00458791 /* ExerciseTableViewCell.swift in Sources */,
+				FBB034762826E104001A3E06 /* ExerciseListCellViewModel.swift in Sources */,
+				FBB034782826E424001A3E06 /* ExerciseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,6 +682,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -715,8 +744,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

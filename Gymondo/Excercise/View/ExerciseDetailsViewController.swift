@@ -69,7 +69,6 @@ class ExerciseDetailsViewController: UIViewController {
         }
         
         viewModel.fetchExercisesError = { error in
-            //            self.hideProgressHUD()
             if let errorHandler = error {
                 // Show alert
                 print(errorHandler)
@@ -78,7 +77,6 @@ class ExerciseDetailsViewController: UIViewController {
     }
     
     private func loadExercisesList() {
-        //        SVProgressHUD.show()
         viewModel.fetchExerciseInfo(exerciseId: self.exerciseId ?? 0)
     }
     
