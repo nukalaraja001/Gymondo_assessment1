@@ -25,7 +25,6 @@ class ExerciseTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        //        setUpThemeColor()
         setUpCollectionView()
     }
     
@@ -49,14 +48,6 @@ class ExerciseTableViewCell: UITableViewCell {
         setCellData()
         updateCellUI()
     }
-    
-    func prepareDetailsViewCell(viewModel: ExerciseListCellViewModel, placeholderImage: UIImage) {
-        self.placeholderImage = placeholderImage
-        self.viewModel = viewModel
-        setCellData()
-        updateCellUI()
-    }
-    
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
