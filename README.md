@@ -16,10 +16,9 @@ This project will show the list of first 20 exercise. If exercise has images the
 
 **Details Screen
 **
+
 Upon tap on any exercise in the list screen user will navigate to the details page where we are showing title, Images, description and Variations. Variations and images will show only if exercise has those.
 
 •	User can see the details of the variation on click on variation item.
 •	Here I using calling the https://wger.de/api/v2/exerciseinfo/   api for both details and variation details 
 
-
-![image](https://user-images.githubusercontent.com/80020656/167335655-145dd914-2e92-4ade-bec4-f173b6cff5c5.png)
